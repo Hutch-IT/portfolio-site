@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url("img/Portfolio_background_blank.png");
+    color: white;
+}
+
+
+.bg-main-content {
+    display: block;
+    background: url("img/Portfolio Background_gif.gif") repeat top left;
+    background-size: contain;
+    width: 50vw;
+    height: 99vh;
+    float: left;
+    margin: 0 7% 0 0;
+    border: 1px solid #3D3D3D;
+    border-right: 5px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+nav {
+    margin-top: 0;
+    border: #3D3D3D solid 3px;
+    border-top: 5px solid transparent;
+    width: 100vw;
+    border-radius: 3px;
+    height: 5vh;
+    background-color: dimgrey;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nlink {
+    display: block;
+    text-align: center;
+    width: 20%;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    border: white 2px solid;
+    border-radius: 2px;
+    padding: 2px;
+
+}
+
+.nlink a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#qrCode {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+
+nav a {
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#about_header {
+    text-align: center;
+}
+
+.active {
+    background-color: darkblue;
+    text-decoration: underline;
+}
+
+.active:hover {
+    background-color: #3676c9;
+}
